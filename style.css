@@ -22,6 +22,30 @@ body {
     border-radius: 10px;
 }
 
+.column {
+    flex: 1;               /* Permite que as colunas cresçam igualmente */
+    text-align: center;    /* Centraliza o texto em cada coluna */
+    padding: 10px;        /* Espaçamento interno nas colunas */
+    margin: 0 5px;
+}
+
+img {
+    width: 400px;          /* Defina o tamanho da imagem */
+    height: 100px;          /* Mantém a proporção original */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+
+
+header .bar #logo {
+    flex: 1 1 200px;
+    background:#c9c9c9;
+   
+}
+
 .box {
     height: 1893px;
     margin-left: 153px;
