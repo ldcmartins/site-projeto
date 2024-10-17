@@ -1,86 +1,12 @@
-* {
-    padding: 0;
-    margin: 0;
-    border-radius: 12px;
-    font-family: "Roboto", sans-serif;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
 
-body {
-    background-image: url(./assets/images/background-image.jpg);
-    background-repeat: no-repeat;
+body{
+    background-image: url(./assets/images/city-wallpaper.jpg);
     background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-}
-
-.bar {
-    max-width: 5000px;
-    height: 150px;
-    margin-top: 60px;
-    margin-right: 153px;
-    margin-left: 153px;
-    margin-bottom: 133px;
-    background-color: rgba(255, 255, 255, 0.213);
-    border-radius: 10px;
-    display:flex;
-}
-
- img {
-    width: auto;   
-    height: 100px;
-    display: flex;
-    position: right;
-
-}
-
-.column {
-    flex: 1px;
-    /* Permite que as colunas cresçam igualmente */
-    text-align: center;
-    /* Centraliza o texto em cada coluna */
-    padding: 10px;
-    /* Espaçamento interno nas colunas */
-    margin: 0 5px;
-    display: flex;
-    font-size: 62px;
-}
-
-.column:hover {
-    background-color: #e0e0e02d; /* Cor de fundo ao passar o mouse */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: px;
-}
-
-
-div.column {
-    justify-content: center;
-    align-items: center;
-}
-
-.button-class {
-    background-color: antiquewhite;
-}
-
-header .bar #logo {
-    flex: 1 1 200px;
-    background: #c9c9c9;
-
-}
-
-.box {
-    height: 1893px;
-    margin-left: 153px;
-    margin-right: 153px;
-    margin-bottom: 100px;
-    background-color: rgba(255, 255, 255, 0.213);
-    border-radius: 10xp;
-}
-
-.column {
-    color: white;
+    background-repeat: no-repeat;
+    
 }
