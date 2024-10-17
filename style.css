@@ -2,46 +2,64 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: bold;
 }
 
 body {
-/*   background-size: cover; */
-    background-repeat: no-repeat;
+    background-image: url(./assets/images/background-image.jpg);
+    background-size: cover;
 }
 
-.container {
-    max-width: 1400px;
+header {
+    max-width: 100%;
     padding: 20px;
-    margin:o auto;
+    margin: o auto;
+    background-color: rgba(243, 243, 243, 0.137);
+    border-radius: 10px;
+    margin-top: 5px;
+    
 }
 
 nav {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
-img {
+
+img.logo-travelgram {
     width: 162px;
     height: 32px;
 }
 
-nav ul {
-    list-style: none;
+.logo {
+    display: flex;
+    justify-content: space-between;/* Espaço entre os itens */
+    width: 100%; /* Define o tamanho da div */
+    margin-right: 30px;
+  }
+
+.navbar {
+    width: 370px;
 }
 
 nav ul li {
-   display: inline-block; 
+    display: inline-block;
 }
 
 nav ul li a {
-    padding: 10px 20px;
+    padding: 10px 10px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 115, 0);
     border-radius: 30px;
     transition: 0.6s;
 }
 
+ul {
+  display:flex;  
+}
+
 nav ul li a:hover {
-    background-color: blue;
+    background-color: rgba(255, 255, 255, 0.801);
 }
