@@ -1,75 +1,87 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 16px;
+  margin: 10;
+  padding: 10;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
 }
 
-
-  
-
 body {
-    background-image: url(./assets/images/background-image.jpg);
-    background-size: cover;
+  background-image: url(./assets/images/background-image.jpg);
+  background-size: cover;
 }
 
 header {
-    max-width: 100%;
-    padding: 20px;
-    margin: o auto;
-    background-color: rgba(243, 243, 243, 0.137);
-    border-radius: 10px;
-    margin-top: 5px;
-    
+  max-width: 100%;
+  margin: o auto;
+  background-color: rgba(36, 36, 36, 0.329);
+  margin-top: 5px;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between 1%;
 }
 
 img.logo-travelgram {
-    width: 162px;
-    height: 30px;
-    margin-left: 80px;
+  width: 162px;
+  height: 30px;
+  margin-left: 30px;
+}
+
+img.logo-lupa a {
+  display: flex;
+  width: 11px;
 }
 
 .logo {
-    display: flex;
-    justify-content: space-between;/* Espaço entre os itens */
-    width: 100%; /* Define o tamanho da div */
-    margin-right: 30px;
-  }
+  display: flex;
+  justify-content: space-between; /* Espaço entre os itens */
+  width: 100%; /* Define o tamanho da div */
+  margin-right: 1;
+}
 
 .navbar {
-    width: 400px;
+  width: 305px;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
 }
 
 nav ul li a {
-    padding: 12px 12px 12px;
-    text-decoration: none;
-    color: rgb(255, 115, 0);
-    border-radius: 30px;
-    transition: 0.6s;
+  font-size: 14.4px;
+  text-decoration: none;
+  color: rgb(255, 115, 0);
+  border-radius: 60px;
+  transition: 0.35s;
 }
 
 ul {
-  display:flex;  
+  display: inline;
+  justify-content: space-between;
 }
 
 nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.801);
+  background-color: rgba(53, 53, 53, 0.801);
 }
 
 main {
-    display:flex;
+  display: flex;
 }
+
+img.logo-lupa:hover {
+  background-color: rgba(53, 53, 53, 0.801);
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+}
+
