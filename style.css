@@ -1,33 +1,27 @@
 * {
-  padding:0;
-  
+  padding: 0;
+
   box-sizing: border-box;
 
   font-family: Roboto, sans-serif;
-    font-weight: 500;
-    font-style: normal;
+  font-weight: 500;
+  font-style: normal;
 }
-
-
 
 body {
-background-color: black;
-background-image: url(./assets/images/background-image.jpg);
-background-size: cover;
+  background-color: black;
+  background-image: url(./assets/images/background-image.jpg);
+  background-size: cover;
 }
-
-
 
 a {
   font-size: 14.4px;
   text-decoration: none;
   /*     color: rgb(255, 115, 0); */
-  color: #ec5c4c; 
+  color: #ec5c4c;
   /*inherit; /* cor herdada, tira a propriedade da cor azul do navegador e busca a propriedade
   da cor do body, que seria o color-secondery */
 }
-
-
 
 nav {
   height: 45px;
@@ -48,8 +42,6 @@ nav ul {
   padding-block: 8px; /* espaçamento dentro da barra */
 }
 
-
-
 nav ul li:last-child img {
   width: 40px;
   height: 40px;
@@ -64,12 +56,7 @@ nav ul li:last-child img {
   margin-inline: auto; /* centraliza na página */
 }
 
-
-
-
 a:hover {
-
-  color: red;
+  color: rgb(255, 115, 0);
   text-decoration: underline;
 }
-
