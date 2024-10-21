@@ -14,14 +14,6 @@ body {
   background-size: cover;
 }
 
-a {
-  font-size: 14.4px;
-  text-decoration: none;
-  /*     color: rgb(255, 115, 0); */
-  color: #ec5c4c;
-  /*inherit; /* cor herdada, tira a propriedade da cor azul do navegador e busca a propriedade
-  da cor do body, que seria o color-secondery */
-}
 
 nav {
   height: 45px;
@@ -56,7 +48,18 @@ nav ul li:last-child img {
   margin-inline: auto; /* centraliza na página */
 }
 
+
+a {
+  font-size: 14.4px;
+  text-decoration: none;
+  /*     color: rgb(255, 115, 0); */
+  color: #ec5c4c;
+  /*inherit; /* cor herdada, tira a propriedade da cor azul do navegador e busca a propriedade
+  da cor do body, que seria o color-secondery */
+  display: inline-block; /* Necessário para transformar o link */
+  transition: transform 0.s ease;
+}
+
 a:hover {
-  color: rgb(255, 115, 0);
-  text-decoration: underline;
+  transform: scale(1.03); /* Aumenta o link em 10% */
 }
