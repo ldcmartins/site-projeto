@@ -1,4 +1,65 @@
 * {
+padding:0;
+margin: 0;
+}
+
+body {
+  background-image: url(./assets/images/background-image.jpg);
+  background-repeat: no-repeat;
+  background: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
   margin: 10;
   padding: 10;
   box-sizing: border-box;
@@ -40,8 +101,8 @@ img.logo-lupa a {
 .logo {
   display: flex;
   justify-content: space-between; /* Espaço entre os itens */
-  width: 100%; /* Define o tamanho da div */
-  margin-right: 1;
+ /* width: 100%; /* Define o tamanho da div */
+/*  margin-right: 1;
 }
 
 .navbar {
@@ -85,4 +146,3 @@ img.logo-lupa:hover {
   display: flex;
   justify-content: space-between;
 }
-
