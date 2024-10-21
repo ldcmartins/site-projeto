@@ -1,0 +1,75 @@
+* {
+  padding:0;
+  
+  box-sizing: border-box;
+
+  font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+body {
+background-color: black;
+background-image: url(./assets/images/background-image.jpg);
+background-size: cover;
+}
+
+
+
+a {
+  font-size: 14.4px;
+  text-decoration: none;
+  /*     color: rgb(255, 115, 0); */
+  color: #ec5c4c; 
+  /*inherit; /* cor herdada, tira a propriedade da cor azul do navegador e busca a propriedade
+  da cor do body, que seria o color-secondery */
+}
+
+
+
+nav {
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 0;
+  /* padding-block: 20px; */
+  background-color: rgba(255, 255, 255, 0.068);
+  border-radius: 6px;
+}
+
+nav ul {
+  list-style: none; /* tira os pontos da lista ul */
+  display: flex;
+  gap: 12px; /* espaçamento entre os ícones */
+  align-items: center;
+  padding-block: 8px; /* espaçamento dentro da barra */
+}
+
+
+
+nav ul li:last-child img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Para deixar a imagem redonda */
+  object-fit: cover; /* Para manter a imagem proporcional */
+}
+
+.container {
+  /*tudo que está em container é o que será CONTIDO EM TODA A PÁGINA */
+  padding-inline: 10px; /* vai dar espaçamento lateral */
+  max-width: 1280px; /* largura máxima */
+  margin-inline: auto; /* centraliza na página */
+}
+
+
+
+
+a:hover {
+
+  color: red;
+  text-decoration: underline;
+}
+
