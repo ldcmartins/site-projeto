@@ -1,12 +1,45 @@
 * {
-padding:0;
-margin: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-image: url(./assets/images/background-image.jpg);
-  background-repeat: no-repeat;
-  background: cover;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; /* Espaço entre os elementos */
+  align-items: center;
+  line-height: 0;
+  padding-block: 20px;
+}
+
+nav ul {
+  list-style: none; /* Remove os marcadores da lista */
+  display: flex;
+  gap: 24px; /* Espaçamento entre os itens da lista */
+  align-items: center;
+  padding-block: 8px; /* Espaçamento interno opcional na lista */
+}
+
+logo  {
+  width: 40px;
+  height: 40px;
+}
+
+
+nav ul li:last-child img {
+  width: 40px;
+  height: 40px;
+  bojet
+}
+
+a {
+  display: flex;
+  text-decoration: none; /* Remove sublinhado dos links */
 }
 
 
