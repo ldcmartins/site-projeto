@@ -6,6 +6,7 @@
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-style: normal;
+  border-radius: 6px;
 }
 
 body {
@@ -13,7 +14,6 @@ body {
   background-image: url(./assets/images/background-image.jpg);
   background-size: cover;
 }
-
 
 nav {
   height: 45px;
@@ -23,7 +23,9 @@ nav {
   line-height: 0;
   /* padding-block: 20px; */
   background-color: rgba(255, 255, 255, 0.068);
-  backdrop-filter: blur(1px); /* Ajuste o valor de pixel para mais ou menos desfoque */
+  backdrop-filter: blur(
+    1px
+  ); /* Ajuste o valor de pixel para mais ou menos desfoque */
   border-radius: 6px;
 }
 
@@ -49,7 +51,6 @@ nav ul li:last-child img {
   margin-inline: auto; /* centraliza na página */
 }
 
-
 a {
   font-size: 14.4px;
   text-decoration: none;
@@ -58,16 +59,27 @@ a {
   /*inherit; /* cor herdada, tira a propriedade da cor azul do navegador e busca a propriedade
   da cor do body, que seria o color-secondery */
   display: inline-block; /* Necessário para transformar o link */
-  transition: transform 0.s ease;
+  transition: transform 0s ease;
 }
 
 a:hover {
   transform: scale(1.03); /* Aumenta o link em 10% */
 }
 
-
 header {
   background-color: #ffffff10;
-  backdrop-filter: blur(1px); /* Ajuste o valor de pixel para mais ou menos desfoque */
+  backdrop-filter: blur(
+    1px
+  ); /* Ajuste o valor de pixel para mais ou menos desfoque */
   color: white;
+}
+
+.container {
+  padding-inline: 10px;
+  max-width: 1280px;
+  margin-inline: auto;
+  margin-top: 20px;
+  padding-inline: 10px; /* vai dar espaçamento lateral */
+  max-width: 1280px; /* largura máxima */
+  margin-inline: auto; /* centraliza na página */
 }
