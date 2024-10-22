@@ -23,6 +23,7 @@ nav {
   line-height: 0;
   /* padding-block: 20px; */
   background-color: rgba(255, 255, 255, 0.068);
+  backdrop-filter: blur(1px); /* Ajuste o valor de pixel para mais ou menos desfoque */
   border-radius: 6px;
 }
 
@@ -62,4 +63,11 @@ a {
 
 a:hover {
   transform: scale(1.03); /* Aumenta o link em 10% */
+}
+
+
+header {
+  background-color: #ffffff10;
+  backdrop-filter: blur(1px); /* Ajuste o valor de pixel para mais ou menos desfoque */
+  color: white;
 }
