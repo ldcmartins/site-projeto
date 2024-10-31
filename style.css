@@ -67,11 +67,12 @@ a:hover {
 }
 
 header {
-  background-color: #ffffff10;
-  backdrop-filter: blur(
-    1px
-  ); /* Ajuste o valor de pixel para mais ou menos desfoque */
-  color: white;
+background-color: #ffffff10;
+backdrop-filter: blur(1px); /* Ajuste o valor de pixel para mais ou menos desfoque */
+color: white;
+margin-left: 95.333px;
+margin-right: 95.333px;
+
 }
 
 .container {
@@ -82,4 +83,17 @@ header {
   padding-inline: 10px; /* vai dar espaçamento lateral */
   max-width: 1280px; /* largura máxima */
   margin-inline: auto; /* centraliza na página */
+  display:flex;
 }
+
+h1 {
+  display:flex;
+  margin-top: 36px;
+  margin-bottom: 164px;
+}
+
+p {
+  display:flex;
+font-weight: 30px;
+}
+
