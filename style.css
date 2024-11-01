@@ -1,4 +1,4 @@
-* {
+{
   padding: 0;
 
   box-sizing: border-box;
@@ -14,7 +14,6 @@ body {
   background-image: url(./assets/images/background-image.jpg);
   background-size: cover;
 }
-
 nav {
   height: 45px;
   display: flex;
@@ -67,14 +66,12 @@ a:hover {
 }
 
 header {
-background-color: #ffffff10;
-backdrop-filter: blur(1px); /* Ajuste o valor de pixel para mais ou menos desfoque */
-color: white;
-margin-left: 95.333px;
-margin-right: 95.333px;
-
+  background-color: #ffffff10;
+  backdrop-filter: blur(
+    1px
+  ); /* Ajuste o valor de pixel para mais ou menos desfoque */
+  color: white;
 }
-
 .container {
   padding-inline: 10px;
   max-width: 1280px;
@@ -83,17 +80,4 @@ margin-right: 95.333px;
   padding-inline: 10px; /* vai dar espaçamento lateral */
   max-width: 1280px; /* largura máxima */
   margin-inline: auto; /* centraliza na página */
-  display:flex;
 }
-
-h1 {
-  display:flex;
-  margin-top: 36px;
-  margin-bottom: 164px;
-}
-
-p {
-  display:flex;
-font-weight: 30px;
-}
-
