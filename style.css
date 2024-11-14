@@ -1,4 +1,4 @@
-{
+ {
   padding: 0;
 
   box-sizing: border-box;
@@ -72,6 +72,7 @@ header {
   ); /* Ajuste o valor de pixel para mais ou menos desfoque */
   color: white;
 }
+
 .container {
   padding-inline: 10px;
   max-width: 1280px;
@@ -81,3 +82,21 @@ header {
   max-width: 1280px; /* largura máxima */
   margin-inline: auto; /* centraliza na página */
 }
+
+header {
+  padding-block: 32px;
+  margin-top:30px;
+}
+
+
+ #profile {
+  display:flex;
+  gap:32px;
+
+}
+
+#profile > div {
+  max-width: 768px;
+}
+
+
