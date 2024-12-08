@@ -1,12 +1,9 @@
- {
-  padding: 0;
+ *{
 
   box-sizing: border-box;
 
   font-family: Roboto, sans-serif;
-  font-weight: 500;
   font-style: normal;
-  border-radius: 6px;
 }
 
 body {
@@ -48,6 +45,7 @@ nav ul li:last-child img {
   padding-inline: 10px; /* vai dar espaçamento lateral */
   max-width: 1280px; /* largura máxima */
   margin-inline: auto; /* centraliza na página */
+  
 }
 
 a {
@@ -59,6 +57,7 @@ a {
   da cor do body, que seria o color-secondery */
   display: inline-block; /* Necessário para transformar o link */
   transition: transform 0s ease;
+  
 }
 
 a:hover {
@@ -71,9 +70,10 @@ header {
     1px
   ); /* Ajuste o valor de pixel para mais ou menos desfoque */
   color: white;
+  
 }
 
-.container {
+.container header{
   padding-inline: 10px;
   max-width: 1280px;
   margin-inline: auto;
@@ -81,22 +81,34 @@ header {
   padding-inline: 10px; /* vai dar espaçamento lateral */
   max-width: 1280px; /* largura máxima */
   margin-inline: auto; /* centraliza na página */
+  
 }
 
 header {
-  padding-block: 32px;
-  margin-top:30px;
+  border-radius: 6px;
+  margin-top:20px;
+  padding-inline: 10px;
+  max-width: 1280px;
+  margin-inline: auto;
 }
 
-
- #profile {
-  display:flex;
-  gap:32px;
-
+#profile {
+  display: flex;
+  align-items: center;
+  gap: 32px;
 }
 
-#profile > div {
-  max-width: 768px;
+#info { 
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  gap: 16px;
+  gap:16px;
+  margin-left: 344px;
 }
 
-
+#info li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
